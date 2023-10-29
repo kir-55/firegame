@@ -1,0 +1,116 @@
+body {
+    background: url("../img/fg.jpg") 90% 200% no-repeat fixed;
+    background-color: #090d10;
+}
+
+
+h1{
+    position: relative;
+    color: #ffd82d;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 20%;
+}
+
+h3 {
+    color: #ffd82d;
+}
+
+footer{
+    width: 99%; 
+    height: 10%;
+    position: absolute;
+    bottom: 0;
+}
+
+p {
+    position: relative;
+    color: #ffd518;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration: none; /* no underline */
+}
+
+label {
+    color: rgb(255, 255, 255);
+}
+
+span{
+    color: yellow;
+}
+
+
+.container {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.element {
+    background-color: rgb(66, 66, 66);
+}
+
+.element img {
+    
+    height: 150px;
+    width: 150px;
+    /*background-color: white;*/
+}
+
+
+
+ul.normal_list > li{
+    position: relative;
+    color: #ffd518;
+}
+
+ul.menu > li {
+    display: inline-block;
+    
+}
+
+
+hr {
+    z-index: 3;
+    margin-left: 0;
+    border-top: 1px solid #ffd518;
+}
+
+.menu_link {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 15px;
+    display: block;
+    overflow: hidden;
+}
+
+.hover {
+    transition: transform 0.3s ease 0s;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #090d10;
+    z-index: 2;
+    will-change: transform;
+    overflow: hidden;
+}
+
+.hover_text {
+    transition: transform 0.3s ease 0s;
+    padding: 5px 15px;
+    color: #ff8330;
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    will-change: transform;
+}
+
+
+

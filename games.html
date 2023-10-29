@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/png" href="{% static 'FireGame/lg2.ico' %}"/>
+        <link rel="stylesheet" href="{% static 'FireGame/css/styles.css' %}">
+        <script src="{% static 'FireGame/js/script.js' %}" defer></script>
+        <title>Fire Game</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul class="menu" data-line-effect>
+                    <li>
+                        <a href="/firegame" class="menu_link">Home</a>
+                    </li>
+                    <li>
+                        <a href="/firegame/about" class="menu_link">About</a>
+                    </li>
+                    <li>
+                        <a href="/firegame/games" class="menu_link">Games</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1>Games</h1>
+        </header>
+        
+        <main>
+
+          <p>We have a few games and project done such a:
+            <div class="container">
+                <div class="element" poping>
+                    <a href="https://play.google.com/store/apps/details?id=com.Fairgame.BattlePlayer" target=”_blank”>
+                        <span>Nov 15, 2021</span> 
+                        <br>
+                        <img src="{% static 'FireGame/img/BattlePlayerLogo.png' %}" alt="Battle Player"> 
+                        <br>
+                        <label>Battle Player</label>
+                    </a>
+                </div>
+                <div class="element" poping>
+                    <a href="https://fire-game.itch.io/cube-apocaliptis" target=”_blank”>
+                        <span>Jun 04, 2022</span> 
+                        <br>
+                        <img src="{% static 'FireGame/img/CubeAphocalipseLogo.jpg' %}" alt="Cube Aphocalipse">
+                        <br>
+                        <label>Cube Aphocalipse</label>
+                    </a>
+                </div>
+                <div class="element" poping>
+                    <span>Upcomming!</span> 
+                    <br>
+                    <img src="{% static 'FireGame/img/UcraninianForestLogo.png' %}" alt="Ukrainian Forest">
+                    <br>
+                    <label>Ukrainian Forest</label>
+                </div>
+            </div>
+          <p>
+        </main>
+        <!--
+        <footer>
+          <hr>
+          <p>Copyright 2023 Fire Game</p>
+        </footer>
+        -->
+
+    </body>
+</html>
