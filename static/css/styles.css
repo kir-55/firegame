@@ -43,10 +43,17 @@ span{
 }
 
 
-.container {
+.container-col {
     width: 50%;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
 
